@@ -4,7 +4,7 @@ Welcome to **ShopKaro**, a fully functional e-commerce platform built with **Rea
 
 ## Project Link
 
-You can find the project repository on GitHub: [ShopKaro Repository](https://github.com/Nitish-Babu-Chetti/shopkaro)
+You can view the deployed project here: [ShopKaro Live Demo](https://Nitish-Babu-Chetti.github.io/shopkaro)
 
 ## Table of Contents
 
