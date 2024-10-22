@@ -2,7 +2,7 @@
   "name": "amazon-clone-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://username.github.io/amazon-clone-app",
+  "homepage": "https://Nitish-Babu-Chetti.github.io/shopkaro",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.6.0",
     "@reduxjs/toolkit": "^2.2.7",

@@ -31,7 +31,7 @@ const SimilarItems = () => {
                             <Link
                                 to={`/products/${product.id}`}
                                 key={product.id}
-                                className="text-decoration-none"
+                                className="text-decoration-none m-auto"
                                 id="category-products-cards"
                             >
                                 <div className="card" id="category-product-card">
