@@ -1,0 +1,230 @@
+#product-page
+{
+    background-color: #F0F5FF;
+}
+#product-page p{
+    font-size: small;
+}
+#item-details-page{
+    background-color: white;
+}
+
+#item-details-page
+{
+    display: flex;
+    flex-direction: row;
+}
+#price-section
+{
+    display: flex;
+}
+#left-part
+{
+    max-width : 35vw;
+    height: 100vh;
+    background-color: white;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+#item-images-part img
+{
+    width: 5vw;
+    height: 10vh;
+    padding: 5px;
+}
+#item-images-part
+{
+    width: 70px;
+    text-align: center;
+}
+.item-main-image img
+{
+    width: 30vw;
+    height : 50vh;
+}
+.images-part
+{
+    display: flex;
+    align-items: center;
+    gap: 1%;
+}
+.main-image-and-btns.ms-2 .card {
+    position: relative;
+
+}
+#wishlist-btn
+{
+    position: absolute;
+    top: 10px; /* Adjust the distance from the top */
+    right: 10px;
+    background-color: white;
+    border: none;
+}
+#item-sub-images
+{
+    border : 1px solid lightgray;
+}
+#right-part
+{
+    width: 65vw;
+    padding: 20px;
+    margin-left: 20px;
+}
+#bank-offer
+{
+    font-size: small;
+}
+#brand
+{
+    border: 1px solid black;
+    padding: 5px;
+}
+#delivery input
+{
+    border : none;
+    border-bottom: 1px solid #BF2EF0;
+    outline: none;
+}
+#delivery input:focus
+{
+    border: none;
+    border-bottom: 1px solid #BF2EF0;
+    outline: none;
+}
+#delivery button
+ {
+    border: none;
+    outline: none;
+    background-color: white;
+    color: #BF2EF0;
+ }
+#add-and-buy-btn
+{
+    display: flex;
+}
+#add-and-buy-btn button
+{
+    flex: 1;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+#add-to-cart-btn
+{
+    background-color: #BF2EF0;
+}
+#buy-now-btn
+{
+    background-color: #48CFCB;
+}
+#rating-and-tagline #reviewer-details
+{
+    display: flex;
+    gap: 10px;
+}
+#similar-item-card
+{
+    border: none;
+    
+}
+@media (max-width: 773px)
+{
+    #item-details-page
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    #left-part
+    {
+
+        height: auto;
+        margin: auto;
+        position: static;
+    }
+    #left-part .card
+    {
+        width: 100%;
+    }
+    .images-part
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+    #left-part .item-main-image img
+    {
+        width: 90vw;
+        height: 50vh;
+    }
+    .container
+    {
+        width: 100vw;
+    }
+    #right-part
+    {
+        margin : 0px;
+        width: 90vw;
+    }
+    #item-sub-images
+    {
+        display: flex;
+        flex-direction: row;
+    }
+    #item-images-part img
+    {
+        width: 20vw;
+        height: 10vh;
+    }
+    #rating-and-tagline #reviewer-details
+    {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 820px)
+{
+    #left-part button
+    {
+        white-space: nowrap;
+    }
+}
+#item-adding-notification
+{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #28a745;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    text-align: center;
+    width: 30%;
+}
+#wishlist-btn i.inWishlist
+{
+    color: red;
+}
+#item-adding-notification
+{
+    width: 300px;
+}
+@media (max-width: 420px) {
+    #add-and-buy-btn {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%; /* Make the buttons stretch to the full width */
+        display: flex;
+        align-items: stretch;
+        z-index: 1000;
+    }
+
+    #add-and-buy-btn button {
+        flex: 1; /* Ensure both buttons are equal width */
+    }
+}

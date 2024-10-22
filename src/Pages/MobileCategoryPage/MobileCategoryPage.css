@@ -1,0 +1,10 @@
+#Categories-cards
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#Category-name
+{
+    white-space: nowrap;
+}

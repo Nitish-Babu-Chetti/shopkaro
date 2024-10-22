@@ -1,0 +1,9 @@
+#loader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#loader h1
+{
+    margin-top: 30vh;
+}

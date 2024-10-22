@@ -1,0 +1,37 @@
+.carousel {
+    position: relative; /* Ensure positioning context for absolute children */
+}
+
+img {
+    width: 100vw;
+    height: 250px;
+}
+
+.carousel-control-prev, 
+.carousel-control-next {
+    background-color: white;
+    width: 4vw;
+    height: 20vh;
+    display: flex;
+    align-items: center; /* Center icon vertically */
+    justify-content: center; /* Center icon horizontally */
+}
+
+#slider-prev-btn {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust for true vertical centering */
+    left: 1%; /* Positioning from the left edge */
+}
+
+#slider-next-btn {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust for true vertical centering */
+    right: 1%; /* Positioning from the right edge */
+}
+
+#slider-prev-btn:hover,
+#slider-next-btn:hover {
+    background-color: white;
+}

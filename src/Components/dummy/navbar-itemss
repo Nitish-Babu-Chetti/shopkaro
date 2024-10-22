@@ -1,0 +1,32 @@
+<a href="/" className="navbar-brand">Cloned App</a>
+                    <form className="d-flex">
+                        <input type="text" placeholder="Search here for products, Brands and More"
+                               className="form-control p-1"/>
+                    </form>
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#nav-items" aria-controls="nav-items" aria-expanded="false">
+                        <span className="navbar-toggler-icon"></span>
+                    </button>
+                    {/*<div className="collapse navbar-collapse" id="nav-items">*/}
+                        <ul className="collapse navbar-nav ms-auto d-flex align-items-center justify-content-between" id="nav-items">
+                            <li className="nav-item">
+                                <button className="btn bg-transparent">
+                                    <span className="fa fa-user-circle"></span> Login
+                                </button>
+                            </li>
+                            <li className="nav-item">
+                                <button className="btn bg-transparent">
+                                    <span className="fa fa-cart-shopping"></span> Cart
+                                </button>
+                            </li>
+                            <li className="nav-item">
+                                <button className="btn bg-transparent">
+                                    <span className="fa fa-store"></span> Become a seller
+                                </button>
+                            </li>
+                            <li className="nav-item">
+                                <button className="btn bg-transparent">
+                                    <span className="fas fa-ellipsis-v"></span>
+                                </button>
+                            </li>
+                        </ul>

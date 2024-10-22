@@ -1,0 +1,9 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+        /*font-family: Arial, Helvetica, Museo, and Raleway;*/
+}

@@ -1,0 +1,18 @@
+#Category .container-fluid {
+    display: flex;
+    gap: 30px;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+#Category
+{
+    width: 100%;
+}
+#categories-block {
+    display: flex;
+    align-items: center;
+}
+#categories-block a {
+    white-space: nowrap;
+    padding: 10px 0px;
+}

@@ -1,0 +1,92 @@
+#homepage
+{
+    background-color: #F0F5FF;
+}
+.best-deals-card
+{
+    /*border: 1px solid black;*/
+}
+.container-fluid
+{
+    overflow: hidden;
+}
+#selected-category-product-img
+{
+    width: 150px;
+    height: 150px;
+}
+.product-list
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+#product-card
+{
+    width: 200px;
+    height: 300px;
+}
+#product-link
+{
+    text-decoration: none;
+}
+#mobile
+{
+    display: none;
+}
+/* Homepage.css */
+
+.advertisement-banners {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; /* Add some space between the images */
+}
+
+.advertisement-banners img {
+    flex: 1 1 calc(33.33% - 30px); /* For three images per row */
+    max-width: 100%;
+}
+
+@media (max-width: 768px) {
+    .advertisement-banners img {
+        flex: 1 1 calc(50% - 10px); /* For two images per row on medium screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .advertisement-banners img {
+        flex: 1 1 100%; /* For one image per row on smaller screens */
+    }
+    #mobile
+    {
+        display: flex;
+        margin-top: 20px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        background-color: #48CFCB;
+        width: 100vw;
+        z-index: 1000;
+    }
+    #mobile ul li{
+        list-style: none;
+    }
+    #mobile ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    #mobile ul i
+    {
+        font-size: 30px;
+        padding: 15px;
+        color: white;
+    }
+}
+

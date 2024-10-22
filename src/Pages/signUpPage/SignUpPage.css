@@ -1,0 +1,61 @@
+#m-number
+{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #000;
+}
+#m-button:focus
+{
+    outline: none;
+}
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+#login-left-part
+{
+    background-color: #48CFCB;
+}
+#SignUpPage .card
+{
+    height: 70vh;
+    margin-top: 50px;
+}
+.input-container
+{
+    position: relative;
+}
+.input-container label
+{
+    position: absolute;
+    font-size: 20px;
+    left: 10px;
+    top: -10px;
+    transition: all 0.3s ease; /* This will ensure smooth label transition */
+}
+#login-right-part p a
+{
+    text-decoration: none;
+}
+#otp-btn
+{
+    background-color: #BF2EF0!important;
+    color: white;
+}
+#login-btn
+{
+    box-shadow: 0 2px 4px gray;
+}
+@media (max-width: 773px)
+{
+    #m-number
+    {
+        outline: 1px solid black;
+        border: 1px solid #000;
+        padding: 10px;
+    }
+    .input-container label
+    {
+        top: 5%;
+    }
+}
