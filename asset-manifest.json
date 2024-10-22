@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shopkaro/static/css/main.dcacd58f.css",
-    "main.js": "/shopkaro/static/js/main.1ef8da29.js",
+    "main.css": "/shopkaro/static/css/main.a1a25cb9.css",
+    "main.js": "/shopkaro/static/js/main.a6742aa6.js",
     "static/js/453.67c68e36.chunk.js": "/shopkaro/static/js/453.67c68e36.chunk.js",
     "static/media/Banner1.jpg": "/shopkaro/static/media/Banner1.69f28becbe6850a977f6.jpg",
     "static/media/Banner2.jpg": "/shopkaro/static/media/Banner2.9c613cfe70b3eda99a27.jpg",
@@ -33,12 +33,12 @@
     "static/media/picture7.webp": "/shopkaro/static/media/picture7.ed696c6be6e9322eda6e.webp",
     "static/media/picture5.webp": "/shopkaro/static/media/picture5.0f6d302e39511ad15425.webp",
     "index.html": "/shopkaro/index.html",
-    "main.dcacd58f.css.map": "/shopkaro/static/css/main.dcacd58f.css.map",
-    "main.1ef8da29.js.map": "/shopkaro/static/js/main.1ef8da29.js.map",
+    "main.a1a25cb9.css.map": "/shopkaro/static/css/main.a1a25cb9.css.map",
+    "main.a6742aa6.js.map": "/shopkaro/static/js/main.a6742aa6.js.map",
     "453.67c68e36.chunk.js.map": "/shopkaro/static/js/453.67c68e36.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dcacd58f.css",
-    "static/js/main.1ef8da29.js"
+    "static/css/main.a1a25cb9.css",
+    "static/js/main.a6742aa6.js"
   ]
 }
