@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/shopkaro/static/css/main.faf2e711.css",
+    "main.css": "/shopkaro/static/css/main.dcacd58f.css",
     "main.js": "/shopkaro/static/js/main.1ef8da29.js",
     "static/js/453.67c68e36.chunk.js": "/shopkaro/static/js/453.67c68e36.chunk.js",
     "static/media/Banner1.jpg": "/shopkaro/static/media/Banner1.69f28becbe6850a977f6.jpg",
@@ -33,12 +33,12 @@
     "static/media/picture7.webp": "/shopkaro/static/media/picture7.ed696c6be6e9322eda6e.webp",
     "static/media/picture5.webp": "/shopkaro/static/media/picture5.0f6d302e39511ad15425.webp",
     "index.html": "/shopkaro/index.html",
-    "main.faf2e711.css.map": "/shopkaro/static/css/main.faf2e711.css.map",
+    "main.dcacd58f.css.map": "/shopkaro/static/css/main.dcacd58f.css.map",
     "main.1ef8da29.js.map": "/shopkaro/static/js/main.1ef8da29.js.map",
     "453.67c68e36.chunk.js.map": "/shopkaro/static/js/453.67c68e36.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.faf2e711.css",
+    "static/css/main.dcacd58f.css",
     "static/js/main.1ef8da29.js"
   ]
 }
