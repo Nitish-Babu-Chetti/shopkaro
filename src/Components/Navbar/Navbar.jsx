@@ -35,12 +35,15 @@ export const Navbar = () => {
             <div id="navbar">
                 <nav className="navbar navbar-expand-sm">
                     <div className="container">
-                        <button onClick={handleSideBarToggle} className="btn bg-transparent">
-                            <i className="fa fa-bars text-light"></i>
-                        </button>
+                        <div id="sidebar">
+                            <button onClick={handleSideBarToggle} className="btn bg-transparent">
+                                <i className="fa fa-bars text-light"></i>
+                            </button>
 
-                        {/* Sidebar Component */}
-                        <Sidebar sidebarStatus={sidebarStatus} handleSideBarToggle={handleSideBarToggle} />
+                            {/* Sidebar Component */}
+                            
+                                <Sidebar sidebarStatus={sidebarStatus} handleSideBarToggle={handleSideBarToggle} />
+                        </div>
 
                         <a href="/" className="navbar-brand">ShopKaro</a>
 

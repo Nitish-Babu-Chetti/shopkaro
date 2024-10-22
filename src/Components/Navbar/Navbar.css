@@ -87,6 +87,20 @@ nav{
 }
 @media (max-width : 570px)
 {
+    #sidebar
+    {
+        display: none;
+    }
+    #top-search-section
+    {
+        display: block;
+        align-items: flex-start;
+        width: 53vw;
+    }
+    #top-search-section #search-box
+    {
+        width: 100%;
+    }
     #nav-items
     {
         display: none;
