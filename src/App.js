@@ -4,7 +4,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 import { Category } from "./Components/Category/Category"; 
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom"; // Use HashRouter
 import { Homepage } from "./Pages/Hompage/Homepage"; 
 import { ItemPage } from "./Pages/ItemPage/ItemPage"; 
 import { ProductsPage } from "./Pages/ProductsPage/ProductsPage"; 
@@ -42,7 +42,7 @@ function App() {
                                 <Route path="/wishListItems" element={<WishListItems />} />
                                 <Route path="/signUp" element={<SignUpPage />} />
                                 <Route path="/Login" element={<LoginPage />} />
-                                <Route path="*" element={<NotFound />} /> Fallback route
+                                <Route path="*" element={<NotFound />} /> {/* Fallback route */}
                             </Routes>
                         </CSSTransition>
                     </TransitionGroup>
